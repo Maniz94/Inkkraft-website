@@ -1,0 +1,11 @@
+{
+  "name": "inkkraft-tattoo-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check src/main.js && node --check src/content.js && node --check scripts/server.mjs && node --check scripts/build.mjs"
+  }
+}
